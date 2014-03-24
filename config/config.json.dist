@@ -1,0 +1,13 @@
+{
+    "dropbox": {
+        "key": "",
+        "secret": "",
+        "token": ""
+    },
+    "mongodb": {
+        "host": "",
+        "username": "",
+        "password": "",
+        "db": ""
+    }
+}
