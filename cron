@@ -1,2 +1,2 @@
 #!/bin/bash
-grunt backup:mongodb
+cd "$(dirname "$0")" && grunt backup:mongodb
