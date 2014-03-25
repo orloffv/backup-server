@@ -89,7 +89,7 @@ module.exports = function(grunt) {
                                 return grunt.log.error('readFile:', error);
                             }
 
-                            client.writeFile(type + '/' + fileName, data, function(error, state) {
+                            client.writeFile(type + '/' + fileName + '.zip', data, function(error, state) {
                                 if (error) {
                                     return grunt.log.error('Dropbox:', error);
                                 }
